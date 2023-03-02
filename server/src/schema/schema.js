@@ -65,7 +65,6 @@ const RootQuery = new GraphQLObjectType({
         },
     },
 });
-
 //Mutations=>Mutations are GraphQl way of applying data modifications to resources (client send request/ save data to database)
 const mutation = new GraphQLObjectType({
     name: 'Mutation',
